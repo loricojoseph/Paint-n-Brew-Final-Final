@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #db0c76;
+}
+
+body{
+    background-color: white;
+}
+
+.head{
+    background-color: white;
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.logocontainer{
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.twshoplogo{
+    width: 200px;
+    height: 170px;
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+}
+
+
+input.search {
+    height: 50px;
+    width: 500px;
+    /*margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;*/
+    font-family: 'Verdana', sans-serif;
+}
+
+.sidebar{
+    float: left;
+    margin-right: 20px;
+}
+
+.twcomeback{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 0;
+    color:black;
+}
+
+.twlist{
+    font-family: Tahoma;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+main {
+    display: inline;
+ }
+
+ main img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+article h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Lobster;
+    margin:auto;
+}
+
+article h2{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-family: Jomolhari;
+    font-size: 13px;
+    padding-top: 0%;
+}
+
+article h3{
+    color: #534747;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Varela Round;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+article2 h1 {
+    text-align: center;
+    color:#E760A5;
+    font-size: 50px;
+    font-family: Lobster;
+    padding-top: 100px;
+    margin:auto;
+    padding-bottom: 0px;
+}
+
+article2 ul {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+article2 li {
+    display: inline-block;
+    width: 30%;
+    font-size: 20px;
+}
+
+article2 img {
+    margin:auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    
+}
+
+article2 p{
+    color: #534747;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Varela Round;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.paintflauntlogo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+ 
+}
+article img {
+    margin:auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 40%;
+    
+}
+
+.font{
+    text-align: center;
+    font-family: segoe ui;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #db0c76;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+
+.container1{
+    background: linear-gradient(to bottom right,#E760A5,#f9b0d0,#feddeb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.container2{
+   background-color: white;
+}
+.container{
+    padding-top: 50px;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+}
+
+.figure img{
+    margin-top: 50px;
+    text-decoration: none;
+    width: 300px;
+    height: 400px;
+    height: auto;
+}
+
+.figure-caption{
+    font-family: Courgette;
+    color: black;
+    font-size: 20px;
+}
+.footer{
+    background-color: #3788c8;
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+.footertext h1{
+    padding-top: 20px;
+    font-family: Exo;
+    color: white;
+}
+
+.footertext h2{
+    text-align: center;
+    font-family: Exo;
+    color: #f9b0d0;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.footer ul {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.footer li {
+    display: inline-block;
+    width: auto;
+}
+
+.footer img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.footer p{
+    text-align: center;
+    font-family: Rajdhani;
+    line-height: auto;
+    color: white;
+}
+
+/*GALLERY*/
+
+.galleryhead{
+    text-align: center;
+    color:#E760A5;
+    font-size: 50px;
+    font-family: Lobster;
+    margin:auto;
+}
+
+div.gallery {
+    border: 3px solid #f9b0d0;
+    margin-bottom: 10px;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #3788c8;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  /*Services*/
+
+
+
+  /*PRODUCTS*/
+  article ul {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+article li {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+}
+
+.products img{
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+}
+
+.products p{
+    color: #534747;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Varela Round;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*BRANCHES*/
+
+.branches h4{
+    color: #534747;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: Varela Round;
+    font-size: 20px;
+    line-height: 30px;
+}
+ul li a{
+    text-decoration:none;
+    color:black;
+    display:block;
+   padding:10px;
+}
+
+ul li a:hover {
+    padding:20px;
+}
+
+ul li ul li{
+    display:none;
+    
+}
+
+ul li:hover ul li{
+    display:block;
+    height: 50px;
+    opacity:1;
+    background-color:rgba(32, 178, 204, 0.7);
+    
+    
+}
+
+.caintabranch{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 900px;
+    max-width: 100%;
+    height:auto;
+}
+
+.antipolobranch{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 900px;
+    max-width: 100%;
+    height:auto;
+}
